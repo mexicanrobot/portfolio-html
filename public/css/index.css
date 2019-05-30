@@ -1,42 +1,49 @@
 * {
-    font-family: Helvetica, sans-serif
+    font-family: Noah, sans-serif
 }
+
+@font-face {
+    font-family: Noah;
+    src: url(Noah-Regular.woff);
+}
+
 .header {
     width: 100vw;
-    height: 120px;
-    /* background-color: #454545; */
+    height: 75px;
     background-color: #1fc8db;
-background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-    position: absolute;
-    left: 0;
-    top: 0;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     font-family: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.page-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
 }
 
 .logo {
     font-size: 36px;
     font-weight: bold;
-    position: absolute;
-    width: 180px;
-    height: 96px;
-    display: inline-block;
-    top: 12px;
-    left: 42px;
     text-align: center;
     color: #FFFFFF;
     font-family: inherit;
+    flex: 1;
+    text-align: left;
+    padding-left: 42px;
 }
 
 .nav-container {
-    width: 446px;
-    height: 29px;
-    display: inline-block;
-    position: absolute;
-    top: 48px;
-    right: 42px;
-    top: 48px;
+    flex: 1;
     color: #FFF;
     font-family: inherit;
+    text-align: right;
+    padding-right: 42px;
 }
 
 .nav-item {
@@ -48,56 +55,78 @@ background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
 .footer {
     width: 100vw;
-    height: 90px;
-    display: inline-block;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 75px;
     background-color: #454545;
     color: #FFF;
     font-weight: bold;
     font-size: 24px;
     font-family: inherit;
+    display: flex;
+    align-items: center;
 }
 
 .footer-msg {
-    display: inline-block;
-    width: 494;
-    height: 62px;
-    position: absolute;
-    left: 62px;
-    top: 12px;
     font-family: inherit;
+    text-align: left;
+    padding-left: 42px;
+    flex: 1;
 }
 
 .footer-cr {
-    display: inline-block;
-    width: 187px;
-    height: 62px;
-    right: 42px;
-    top:12px;
-    position: absolute;
     font-family: inherit;
+    text-align: right;
+    padding-right: 42px;
+    flex: 1;
 }
 
-.avatar {
+.intro .avatar {
+    flex: 1;
+    max-width: 370px;
+}
+
+.intro .avatar img {
     width: 370px;
     height: 370px;
 }
 
 .intro {
-    display: inline-block;
-    position: absolute;
-    width: 1668px;
-    height: 559px;
-    top: 343px;
-    left: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
 }
 
-.intro .title {
+.intro .message {
+    flex: 1;
+    max-width: 1163px;
+}
+
+.message .title {
     font-size: 96px;
+    /* grid-column: 1; */
+    padding-left: 42px;
 }
 
-.intro .desc {
+.message .desc {
     font-size: 48px;
+    /* grid-column: 1; */
+    padding-left: 42px;
+}
+
+.design {
+    color: #839BB2;
+}
+
+.frontend {
+    color: #9682A7;
+}
+
+.ux {
+    color: #9FB8AD;
+}
+
+.resume {
+    margin-top: 150px;
+    background-color: #839BB2;
+    border-radius: 10px;
 }
