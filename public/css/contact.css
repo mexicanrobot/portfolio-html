@@ -1,0 +1,54 @@
+.contact-card {
+    width: 697px;
+    height: 788px;
+    border-radius: 20px;
+    margin-top: 71px;
+    margin-bottom: 71px;
+
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.or {
+    margin: auto 0;
+    font-size: 86px;
+    color: #454545;
+}
+
+.social {
+    width: 150px;
+    height: 150px;
+}
+
+input {
+    border-radius: 17px;
+    border: none;
+    height: 24px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.input .title {
+    font-size: 24px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    width: 101px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #454545;
+    margin: 0 auto;
+}
