@@ -91,7 +91,7 @@
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 80px;
 }
@@ -103,14 +103,10 @@
 
 .message .title {
     font-size: 96px;
-    /* grid-column: 1; */
-    padding-left: 42px;
 }
 
 .message .desc {
     font-size: 48px;
-    /* grid-column: 1; */
-    padding-left: 42px;
 }
 
 .design {
@@ -128,5 +124,55 @@
 .resume {
     margin-top: 150px;
     background-color: #839BB2;
+    width: 100vw;
+    height: 1233px;
     border-radius: 10px;
+}
+
+.resume .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.resume .container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-top: 75px;
+}
+
+.resume-pill .content {
+    margin-top: 10px;
+    width: 463px;
+    height: 941px;
+    border-radius: 37px;
+    background-color: #ededed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+}
+
+.resume-pill .title {
+    color: #FFF;
+}
+
+.skill {
+    font-size: 48px;
+    color: #454545;
+}
+
+.skill .text {
+    font-weight: bold;
+}
+
+.skill .subtext {
+    font-size: 36px;
 }
