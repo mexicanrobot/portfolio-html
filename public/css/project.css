@@ -1,0 +1,61 @@
+.main-img > img {
+  width: 800px;
+  height: 537px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 45px;
+}
+
+.row, .content > .project-pill {
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  border-radius: 71px;
+}
+
+.project-pill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #fff;
+  min-width: 500px;
+}
+
+.desc.title, .desc.desc{
+  text-align: left;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.gallery-img {
+  width: 350px;
+  height: 255px;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 10px;
+}
+
+.title.gallery {
+  font-size: 36px;
+  padding-top: 15px;
+}

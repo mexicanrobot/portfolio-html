@@ -57,13 +57,6 @@ input, textarea {
     margin-bottom: 12px;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: auto;
-}
-
 .row .input {
     width: 45%;
 }
@@ -109,4 +102,11 @@ button {
     width: 210px;
     height: 210px;
     margin: auto auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: auto;
 }

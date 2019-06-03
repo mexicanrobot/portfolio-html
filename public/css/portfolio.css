@@ -82,3 +82,11 @@ div > .content .portfolio {
     font-size: 36px;
     font-weight: lighter;
 }
+
+.project > .overlay {
+    visibility: hidden;
+}
+
+.hover > .overlay {
+    visibility: visible;
+}
