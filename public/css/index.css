@@ -44,7 +44,7 @@
     margin-top: 150px;
     background-color: #839BB2;
     width: 100vw;
-    height: 1233px;
+    min-height: 850px;
     border-radius: 10px;
 }
 
@@ -63,12 +63,13 @@
     justify-content: space-evenly;
     justify-items: center;
     padding-top: 75px;
+    flex-wrap: wrap;
 }
 
 .resume-pill .content {
     margin-top: 10px;
     width: 463px;
-    height: 941px;
+    min-height: 550px;
     border-radius: 37px;
     background-color: #ededed;
 
@@ -77,6 +78,8 @@
     justify-content: space-evenly;
     justify-items: space-between;
     text-align: center;
+
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
 .resume-pill .title {
@@ -94,4 +97,8 @@
 
 .skill .subtext {
     font-size: 36px;
+}
+
+.message .title {
+    color: #454545;
 }

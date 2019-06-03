@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Alejandro Abaroa - Contact</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/contact.css">
@@ -8,7 +9,7 @@
     <body>
         <div class="page-container">
             <header class="header">
-                <div class="logo">Alejandro Abaroa</div>
+                <div class="logo">Alejandro Abaroa 🦄</div>
                 <div class="nav-container">
                     <div class="nav-item">
                         <a href="index.html">Home / Resume</a>
@@ -25,37 +26,43 @@
             <main class="content">
                 <div class="bg-green contact-card">
                     <div class="title">Send me a mail!</div>
-                    <div class="row">
+                    <form class="form" id="email-form">
+                        <div class="row">
+                            <div class="input">
+                                <div class="title">Name</div>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="input">
+                                <div class="title">Email</div>
+                                <input type="text" name="name">
+                            </div>
+                        </div>
                         <div class="input">
-                            <div class="title">Name</div>
+                            <div class="title">Subject</div>
                             <input type="text" name="name">
                         </div>
                         <div class="input">
-                            <div class="title">Email</div>
-                            <input type="text" name="name">
+                            <div class="title">Message</div>
+                            <textarea class="message" form="email-form"></textarea>
                         </div>
-                    </div>
-                    <div class="input">
-                        <div class="title">Subject</div>
-                        <input type="text" name="name">
-                    </div>
-                    <div class="input">
-                        <div class="title">Message</div>
-                        <input type="text" name="name">
-                    </div>
-                    <button class="input">
-                        Send email
-                    </button>
+                        <button class="input send">
+                            Send email
+                        </button>
+                    </form>
                 </div>
 
                 <div class="or">or</div>
 
                 <div class="bg-blue contact-card">
                     <div class="title">Reach me on...</div>
-                    <a href="http://www.facebook.com"><img class="social" src="svg/fb.svg" /></a>
-                    <a href="http://www.instagram.com"><img class="social" src="svg/insta.svg" /></a>
-                    <a href="http://www.linkedin.com"><img class="social" src="svg/linkedin.svg" /></a>
-                    <a href="http://www.twitter.com"><img class="social" src="svg/twitter.svg" /></a>
+                    <div class="social-container">
+                        <div class="social-grid">
+                            <a href="http://www.facebook.com"><img class="social" src="svg/fb.svg" /></a>
+                            <a href="http://www.instagram.com"><img class="social" src="svg/insta.svg" /></a>
+                            <a href="http://www.linkedin.com"><img class="social" src="svg/linkedin.svg" /></a>
+                            <a href="http://www.twitter.com"><img class="social" src="svg/twitter.svg" /></a>
+                        </div>
+                    </div>
                 </div>
             </main>
 

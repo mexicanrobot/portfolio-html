@@ -1,6 +1,6 @@
 .contact-card {
     width: 697px;
-    height: 788px;
+    min-height: 700px;
     border-radius: 20px;
     margin-top: 71px;
     margin-bottom: 71px;
@@ -8,10 +8,23 @@
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
+.bg-blue .contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.contact-card > .title {
+    padding-top: 15px;
+    text-align: center;
+}
+
 .content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .or {
@@ -21,26 +34,38 @@
 }
 
 .social {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
-input {
+input, textarea {
     border-radius: 17px;
     border: none;
-    height: 24px;
+    height: 20px;
     font-size: 24px;
     width: 100%;
+    resize: none;
+    padding: 6px;
 }
 
 .input .title {
     font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.input {
+    margin-bottom: 12px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-items: auto;
+}
+
+.row .input {
+    width: 45%;
 }
 
 button {
@@ -51,4 +76,37 @@ button {
     background-color: #fff;
     color: #454545;
     margin: 0 auto;
+}
+
+.form {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    min-height: 300px;
+}
+
+.send {
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+}
+
+.social-container {
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.social-grid {
+    width: 210px;
+    height: 210px;
+    margin: auto auto;
 }
