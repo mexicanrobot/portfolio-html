@@ -40,11 +40,18 @@ div > .content .portfolio {
     background-color: #454545;
 
     position: relative;
+
+    overflow: hidden;
 }
 
 .project > img {
-    max-width: 100%;
-    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 70px;
 }
 
 .overlay {
@@ -58,6 +65,8 @@ div > .content .portfolio {
 
     border-radius: 70px;
     background-color: rgba(0, 0, 0, 0.7);
+
+    text-decoration: none;
     
     margin: auto auto;
 

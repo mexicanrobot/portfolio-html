@@ -1,15 +1,6 @@
-.main-img > img {
-  width: 800px;
-  height: 537px;
-}
-
-img {
-  border-radius: 15px;
-}
-
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -17,10 +8,17 @@ img {
   padding: 45px;
 }
 
-.row, .content > .project-pill {
-  flex-wrap: wrap;
+.main-img {
+  max-width: 35%;
+  height: 300px;
+  margin-left: 15px;
+  background-size: cover;
+}
+
+.row > .project-pill, .content > .project-pill {
   margin-bottom: 15px;
   border-radius: 71px;
+  flex: 1 1;
 }
 
 .project-pill {
@@ -28,29 +26,45 @@ img {
   flex-direction: column;
   justify-content: space-around;
   justify-items: center;
-  text-align: center;
   flex-wrap: wrap;
   color: #fff;
-  min-width: 500px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .desc.title, .desc.desc{
   text-align: left;
-  padding: 20px;
+  padding-right: 40px;
   padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+
+.desc.title {
+  padding-top: 20px;
+  font-weight: bold;
 }
 
 .gallery-img {
-  width: 350px;
-  height: 255px;
+  width: 370px;
+  height: 275px;
   padding: 10px;
+  border-radius: 71px;
+  object-fit: cover;
 }
 
 .gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   justify-items: center;
   padding-bottom: 10px;
 }
@@ -58,4 +72,8 @@ img {
 .title.gallery {
   font-size: 36px;
   padding-top: 15px;
+}
+
+.row > div {
+  font-size: 28px;
 }
