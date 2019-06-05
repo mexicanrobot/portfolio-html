@@ -99,6 +99,10 @@
     font-size: 36px;
 }
 
+.skill .subsubtext {
+    font-size: 28px;
+}
+
 .message .title {
     color: #454545;
 }
