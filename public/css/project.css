@@ -17,7 +17,7 @@
 
 .row > .project-pill, .content > .project-pill {
   margin-bottom: 15px;
-  border-radius: 71px;
+  border-radius: 20px;
   flex: 1 1;
 }
 
@@ -58,7 +58,7 @@
   padding-bottom: 20px;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 71px;
+  border-radius: 20px;
   object-fit: cover;
 }
 

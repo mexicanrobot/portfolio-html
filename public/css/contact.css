@@ -27,19 +27,13 @@
     flex-wrap: wrap;
 }
 
-.or {
-    margin: auto 0;
-    font-size: 86px;
-    color: #454545;
-}
-
 .social {
     width: 100px;
     height: 100px;
 }
 
 input, textarea {
-    border-radius: 17px;
+    border-radius: 10px;
     border: none;
     height: 20px;
     font-size: 24px;
@@ -65,7 +59,7 @@ button {
     width: 101px;
     height: 30px;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #fff;
     color: #454545;
     margin: 0 auto;

@@ -13,11 +13,17 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .intro .message {
     flex: 1;
     max-width: 1163px;
+}
+
+.message {
+    padding-right: 20px;
 }
 
 .message .title {
@@ -26,6 +32,7 @@
 
 .message .desc {
     font-size: 48px;
+    text-align: justify;
 }
 
 .design {
@@ -45,7 +52,8 @@
     background-color: #839BB2;
     width: 100vw;
     min-height: 850px;
-    border-radius: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
 }
 
 .resume .title {
@@ -70,7 +78,7 @@
     margin-top: 10px;
     width: 463px;
     min-height: 550px;
-    border-radius: 37px;
+    border-radius: 20px;
     background-color: #ededed;
 
     display: flex;
