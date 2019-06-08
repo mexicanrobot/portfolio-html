@@ -47,6 +47,10 @@
   font-size: 36px;
 }
 
+.desc.desc{
+  text-align: justify;
+}
+
 .desc.title {
   padding-top: 20px;
   font-weight: bold;
@@ -58,7 +62,6 @@
   padding-bottom: 20px;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 20px;
   object-fit: cover;
 }
 
