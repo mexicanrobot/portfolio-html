@@ -30,6 +30,7 @@
 .social {
     width: 100px;
     height: 100px;
+    padding: 5px;
 }
 
 input, textarea {
@@ -93,8 +94,8 @@ button {
 }
 
 .social-grid {
-    width: 210px;
-    height: 210px;
+    width: 224px;
+    height: 224px;
     margin: auto auto;
 }
 

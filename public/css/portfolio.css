@@ -93,9 +93,19 @@ div > .content .portfolio {
 }
 
 .project > .overlay {
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 .hover > .overlay {
-    visibility: visible;
+    opacity: 1;
+}
+
+img {
+    transition: transform ease 0.5s;
+    transform: none;
+}
+
+.hover > img {
+    transform: scale(1.1);
 }

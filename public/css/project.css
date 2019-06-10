@@ -47,6 +47,10 @@
   font-size: 36px;
 }
 
+.main.title {
+  font-weight: bold;
+}
+
 .desc.desc{
   text-align: justify;
 }
@@ -60,9 +64,24 @@
   width: 350px;
   height: 255px;
   padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   object-fit: cover;
+  overflow: hidden;
+}
+
+.gallery-img-src {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease 0.2s;
+  transform: none;
+  overflow: hidden;
+  transform-box: border-box;
+}
+
+.gallery-img-src:hover {
+  transform: matrix(1.05,0,0,1.05,0,0);
 }
 
 .gallery {
@@ -80,6 +99,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
+  font-weight:bold;
 }
 
 .row > div {
