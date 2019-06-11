@@ -25,17 +25,17 @@
     float:left;
     display:block;
     padding: 10px;
+    padding-left:20px;
 }
 
 .nav-container {
     color: #FFF;
     font-family: inherit;
     clear:both;
-    /* float: right; */
     overflow:hidden;
     display:block;
     max-height: 0;
-
+    padding-left: 10px;
     transition: max-height 0.2s ease-out;
 }
 
@@ -71,6 +71,8 @@
         clear: none;
         float:right;
         max-height:none;
+        padding: 4px;
+        padding-right: 20px;
     }
 
     .nav-item {
@@ -81,7 +83,7 @@
 
 .footer {
     width: 100vw;
-    height: 75px;
+    height: 52px;
     background-color: #454545;
     color: #FFF;
     font-weight: bold;

@@ -31,6 +31,12 @@
     width: 100px;
     height: 100px;
     padding: 5px;
+    transform: none;
+    transition: all 0.2s ease;
+}
+
+.social:hover{
+    transform: matrix(1.05,0,0,1.05,0,0);
 }
 
 input, textarea {
@@ -82,7 +88,14 @@ button {
 .send {
     width: 200px;
     height: 60px;
-    font-size: 14px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.send:hover {
+    background-color: #454545;
+    color: #fff;
+    cursor: pointer;
 }
 
 .social-container {
