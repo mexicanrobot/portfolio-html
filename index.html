@@ -1,128 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Alejandro Abaroa - Resume</title>
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-    </head>
-    <body>
-        <div class="page-container">
-            <header class="header">
-                <a href="index.html" class="logo">Alejandro Abaroa 🦄</a>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="nav-icon">&#9776</span></label>
-                <div class="nav-container">
-                    <div class="nav-item selected">
-                        <a href="index.html">Home / Resume</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="portfolio.html">Portfolio</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </header>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Alejandro Abaroa - UX Engineer</title>
+    <meta name="Description" content="Portfolio website for Alejandro Abaroa.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="modal-overlay"></div>
+    <section id="modal">
+      <h2 class="modal-title"></h2>
+      <div class="cover-wrapper"></div>
+      <h3 class="modal-link-title">Link</h3>
+      <p class="modal-link"></p>
+      <h3>Description</h3>
+      <p class="modal-description"></p>
+      <h3>Software Used</h3>
+      <div class="software"></div>
+      <h3 class="team-title">Development Team</h3>
+      <div class="modal-team"></div>
+    </section>
+    <header id="header" class="headroom">
+      <a class="home" href="#cover">Alejandro Abaroa</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a download href="files/CV_Abaroa Alex.pdf">Resume</a>
+    </header>
+    <h2 class="title" id="about">About</h2>
+    <section class="about">
+      <img class="headshot" alt="That's a photo of me!" src="images/avatar.jpg"/>
+      <div class="info">
+        <h3>Alejandro Abaroa</h3>
+        <h4>Software Engineer with UI/UX and Graphic Design Skills</h4>
+        <p>I'm a software engineer currently working as an UX Engineer at Thermofisher Scientific. I love front-end development and UX design. I also love music, going to concerts and tea.</p>
+      </div>
+    </section>
+    <h2 class="title" id="portfolio">Portfolio</h2>
+    <section class="projects"></section>
+    <h2 class="title" id="contact">Contact</h2>
+    <section class="contact-me">
+      <a class="icon-github" rel="noreferrer" target="_blank" href="https://github.com/mexicanrobot/">Github</a>
+      <a class="icon-behance" rel="noreferrer" target="_blank" href="https://www.behance.net/alexabaroa">Behance</a>
+      <a class="icon-linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alejandro-abaroa/">Linkedin</a>
+    </section>
+    <footer id="footer">
+      © Alejandro Abaroa 2021
+    </footer>
 
-            <main class="content">
-                <div class="intro">
-                    <div class="message">
-                        <div class="title">
-                            <span class="design">Design</span> & <span class="frontend">front-end</span> & <span class="ux">UX</span>
-                        </div>
-                        <div class="desc">I'm a software engineer currently working at Thermofisher Scientific and previously at Samsung. I love front-end development and UX design. I also love music, going to concerts and tea.</div>
-                    </div>
-                    <img class="avatar" src="images/avatar.jpg"/>
-                </div>
-
-                <div class="resume">
-                    <div class="title">Resume</div>
-                    <div class="container">
-                        <div class="resume-pill">
-                            <div class="title">Education</div>
-                            <div class="content">
-                                <div class="skill">
-                                    <div class="text">
-                                        UABC
-                                    </div>
-                                    <div class="subtext">
-                                        Computer Eng.
-                                    </div>
-                                    <div class="subsubtext">
-                                        2010-2014
-                                    </div>
-                                </div>
-                                <div class="skill">
-                                    <div class="text">
-                                        Ibero
-                                    </div>
-                                    <div class="subtext">
-                                        Masters in design
-                                    </div>
-                                    <div class="subsubtext">
-                                        2018 - 2020
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="resume-pill">
-                            <div class="title">Skills</div>
-                            <div class="content">
-                                <div class="skill">Photoshop</div>
-                                <div class="skill">Illustrator</div>
-                                <div class="skill">Adobe XD</div>
-                                <div class="skill">Javascript</div>
-                                <div class="skill">Angular</div>
-                                <div class="skill">CSS</div>
-                            </div>
-                        </div>
-                        <div class="resume-pill">
-                            <div class="title">Experience</div>
-                            <div class="content">
-                                <div class="skill">
-                                    <div class="text">
-                                        Sonata Services MX
-                                    </div>
-                                    <div class="subtext">
-                                        Software Engineer
-                                    </div>
-                                    <div class="subsubtext">
-                                        Sep 2014 - May 2015
-                                    </div>
-                                </div>
-                                <div class="skill">
-                                    <div class="text">
-                                        Samsung SRT
-                                    </div>
-                                    <div class="subtext">
-                                        Software Engineer
-                                    </div>
-                                    <div class="subsubtext">
-                                        Oct 2015 - Apr 2018
-                                    </div>
-                                </div>
-                                <div class="skill">
-                                    <div class="text">
-                                        Thermofisher 
-                                    </div>
-                                    <div class="subtext">
-                                        Software Engineer II
-                                    </div>
-                                    <div class="subsubtext">
-                                        May 2018 - Now
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            <footer class="footer">
-                <div class="footer-msg">Handmade with love and over many cappuccinos</div>
-                <div class="footer-cr">© Copyright 2019  Alejandro Garcia</div>
-            </footer>
-        </div>
-    </body>
+    <script src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/fslightbox.js"></script>
+  </body>
 </html>

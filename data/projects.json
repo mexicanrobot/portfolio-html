@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Thermofisher.com",
+        "description": "Front-end development for thermofisher.com, creating reutilizable components, and selection guides for their products.",
+        "software": ["Vanilla JS","Adobe AEM"],
+        "cover": "images/Thermofisher/thermo1.jpg",
+        "media": ["images/Thermofisher/thermo1.jpg","images/Thermofisher/thermo2.jpg","images/Thermofisher/thermo3.jpg","images/Thermofisher/thermo4.jpg","images/Thermofisher/thermo5.jpg","images/Thermofisher/thermo6.jpg"]
+    },
+    {
+        "title": "Unity 3D Car Simulation",
+        "description": "3D Simulation to showcase Samsung's business displays. Developed on Unity, where the main display is controlled by a tablet running the same Unity application.",
+        "software": ["Unity"],
+        "cover": "images/Car/car4.jpg",
+        "media": ["images/Car/car.jpg","images/Car/car2.jpg","images/Car/car3.jpg","images/Car/car4.jpg"]
+    },
+    {
+        "title": "Tokyo",
+        "description": "Personal project redesigning the website to visit Tokyo.",
+        "software": ["Adobe XD"],
+        "cover": "images/Tokyo/Tokyo-2.jpg",
+        "media": ["images/Tokyo/Tokyo-1.jpg","images/Tokyo/Tokyo-2.jpg"]
+    },
+    {
+        "title": "Tea.cher",
+        "description": "Personal project designing a mobile app to explore, learn, and brew tea.",
+        "software": ["Sketch","Marvel"],
+        "cover": "images/Teacher/teacher5.jpg",
+        "media": ["images/Teacher/teacher1.jpg","images/Teacher/teacher2.jpg","images/Teacher/teacher3.jpg","images/Teacher/teacher4.jpg","images/Teacher/teacher5.jpg","images/Teacher/teacher6.jpg"]
+    },
+    {
+        "title": "Stonewall",
+        "description": "Personal project redesigning the Stonewall project website, from a 3D experience, to a simple website.",
+        "software": ["Adobe XD"],
+        "cover": "images/Stonewall/Stonewall.jpg",
+        "media": ["images/Stonewall/Stonewall.jpg"]
+    },
+    {
+        "title": "Branding",
+        "description": "Personal projects of branding, creating a Cookie brand, and a mascot for a mobile app for Tea",
+        "software": ["Adobe Illustrator"],
+        "cover": "images/Branding/melancookies1.jpg",
+        "media": ["images/Branding/melancookies.jpg","images/Branding/melancookies1.jpg","images/Branding/teacher.jpg"]
+    },
+    {
+        "title": "Dr Martens Rebranding",
+        "description": "Personal projects of rebranding Dr Martens logo to a more modern look.",
+        "software": ["Adobe Illustrator"],
+        "cover": "images/Rebranding/martens1.jpg",
+        "media": ["images/Rebranding/martens1.jpg","images/Rebranding/martens2.jpg"]
+    },
+    {
+        "title": "Hodads Redesign",
+        "description": "Personal project of redesigning Hodad's webpage, improving the design but keeping the same style.",
+        "software": ["Adobe XD"],
+        "cover": "images/Hodads/Hodads.jpg",
+        "media": ["images/Hodads/Hodads.jpg"]
+    },
+    {
+        "title": "4 Players 1 Snake",
+        "description": "Videogame in Unity, where the concept is 4 players playing Snake, but there's only 1 snake being controlled by everyone.",
+        "software": ["Unity"],
+        "cover": "images/4p1s/4p1s.jpg",
+        "media": ["images/4p1s/4p1s.jpg"]
+    },
+    {
+        "title": "Banner CMS",
+        "description": "Front end development for Banner CMS, for large-format displays.",
+        "software": ["AngularJS","Javascript","Foundation"],
+        "cover": "images/CMS/cms1.jpg",
+        "media": ["images/CMS/cms1.jpg","images/CMS/cms2.jpg","images/CMS/cms3.jpg"]
+    },
+    {
+        "title": "Concert Posters",
+        "description": "I love concerts, so sometimes I like designing concert posters.",
+        "software": ["Illustrator","Photoshop"],
+        "cover": "images/Concerts/concert1.jpg",
+        "media": ["images/Concerts/concert1.jpg","images/Concerts/concert2.jpg","images/Concerts/concert3.jpg"]
+    },
+    {
+        "title": "Terramar Design",
+        "description": "Freelance project designing an ecommerce website to sell beauty products.",
+        "software": ["AdobeXD"],
+        "cover": "images/Terramar/terramar1.jpg",
+        "media": ["images/Terramar/terramar1.jpg","images/Terramar/terramar2.jpg","images/Terramar/terramar3.jpg"]
+    }
+]
