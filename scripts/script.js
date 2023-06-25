@@ -5,23 +5,21 @@
   
         for(let project of json) {
           let projectElement = document.createElement('article');
-          let overlay = document.createElement('div');
           let title = document.createElement('p');
           let image = document.createElement('img');
   
           projectElement.classList.add('project');
-          overlay.classList.add('overlay');
-          title.classList.add('overlay-title');
+          projectElement.setAttribute('tabindex', 0);
+          title.classList.add('project-title');
           title.innerText = project.title;
   
           image.setAttribute('src',project.cover);
           image.setAttribute('alt',project.title);
   
-          overlay.appendChild(title);
-          overlay.onclick = () => showModal(project);
+          projectElement.onclick = () => showModal(project);
   
-          projectElement.appendChild(overlay);
           projectElement.appendChild(image);
+          projectElement.appendChild(title);
   
           projects.appendChild(projectElement);
   
@@ -81,6 +79,9 @@
         document.querySelector('#modal .modal-team').innerHTML = "";
         document.querySelector('#modal .cover-wrapper').innerHTML = "";
       };
+
+      const footer = document.getElementById("footer");
+      footer.innerText = `${footer.innerText} ${new Date().getFullYear()}`;
   
       fetch('data/projects.json').then(response => response.json()).then(data => addProjects(data));
   
