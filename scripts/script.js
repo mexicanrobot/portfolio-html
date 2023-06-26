@@ -3,15 +3,31 @@
       function addProjects(json) {
         let projects = document.querySelector('.projects');
   
-        for(let project of json) {
+        let designProjects = json.filter(project => project.type === "Design");
+        let swProjects = json.filter(project => project.type === "Software");
+
+        let projectsArray = [...swProjects, ...designProjects];
+
+        for(let project of projectsArray) {
           let projectElement = document.createElement('article');
+          let projectInfo = document.createElement('div');
           let title = document.createElement('p');
+          let type = document.createElement('p');
           let image = document.createElement('img');
   
           projectElement.classList.add('project');
           projectElement.setAttribute('tabindex', 0);
+          
+          projectInfo.classList.add('project-info');
+          
           title.classList.add('project-title');
+          type.classList.add('project-type');
+
           title.innerText = project.title;
+          type.innerText = project.type;
+
+          projectInfo.appendChild(title);
+          projectInfo.appendChild(type);
   
           image.setAttribute('src',project.cover);
           image.setAttribute('alt',project.title);
@@ -19,7 +35,7 @@
           projectElement.onclick = () => showModal(project);
   
           projectElement.appendChild(image);
-          projectElement.appendChild(title);
+          projectElement.appendChild(projectInfo);
   
           projects.appendChild(projectElement);
   
@@ -34,7 +50,7 @@
         modal.classList.add('show');
         document.getElementById('modal-overlay').classList.add('show');
         document.querySelector('#modal .modal-title').innerText = project.title;
-        document.querySelector('#modal .modal-description').innerText = project.description;
+        document.querySelector('#modal .modal-description').innerHTML = project.description;
   
         for(let media of project.media) {
           let mediaType = media.split("/")[0];

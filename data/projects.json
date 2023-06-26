@@ -1,13 +1,31 @@
 [
     {
+        "title": "Platform.sh",
+        "type": "Software",
+        "description": "Marketing website for Platform.sh, based on GatsbyJS and Strapi, with its associated React component library developed on Storybook. <a href=\"https://platform.sh/\">Platform.sh</a>",
+        "software": ["GatsbyJS", "Strapi", "Emotion", "Storybook"],
+        "cover": "images/psh/psh.png",
+        "media": ["images/psh/psh.png"]
+    },
+    {
+        "title": "Komodo Design System",
+        "type": "Software",
+        "description": "Design system for Thermofisher, developed the Vanilla JS implementation which then was used for the React version. <a href=\"https://designsystem.thermofisher.com/\">Page</a> and <a href=\"https://s3.amazonaws.com/thermo.ux.garcia/storybook/index.html\">storybook</a>",
+        "software": ["Vanilla JS","Storybook"],
+        "cover": "images/komodo/komodo.png",
+        "media": ["images/komodo/komodo.png"]
+    },
+    {
         "title": "Thermofisher.com",
-        "description": "Front-end development for thermofisher.com, creating reutilizable components, and selection guides for their products.",
+        "type": "Software",
+        "description": "Front-end development for thermofisher.com, creating reutilizable components, and selection guides for their products. <a href=\"https://www.thermofisher.com/mx/en/home/life-science/lab-equipment/lab-centrifuges/benchtop-centrifuges/models/selection.html\">Link to a selection guide.</a>",
         "software": ["Vanilla JS","Adobe AEM"],
         "cover": "images/Thermofisher/thermo1.jpg",
         "media": ["images/Thermofisher/thermo1.jpg","images/Thermofisher/thermo2.jpg","images/Thermofisher/thermo3.jpg","images/Thermofisher/thermo4.jpg","images/Thermofisher/thermo5.jpg","images/Thermofisher/thermo6.jpg"]
     },
     {
         "title": "Unity 3D Car Simulation",
+        "type": "Software",
         "description": "3D Simulation to showcase Samsung's business displays. Developed on Unity, where the main display is controlled by a tablet running the same Unity application.",
         "software": ["Unity"],
         "cover": "images/Car/car4.jpg",
@@ -15,6 +33,7 @@
     },
     {
         "title": "Tokyo",
+        "type": "Design",
         "description": "Personal project redesigning the website to visit Tokyo.",
         "software": ["Adobe XD"],
         "cover": "images/Tokyo/Tokyo-2.jpg",
@@ -22,6 +41,7 @@
     },
     {
         "title": "Tea.cher",
+        "type": "Design",
         "description": "Personal project designing a mobile app to explore, learn, and brew tea.",
         "software": ["Sketch","Marvel"],
         "cover": "images/Teacher/teacher5.jpg",
@@ -29,6 +49,7 @@
     },
     {
         "title": "Stonewall",
+        "type": "Design",
         "description": "Personal project redesigning the Stonewall project website, from a 3D experience, to a simple website.",
         "software": ["Adobe XD"],
         "cover": "images/Stonewall/Stonewall.jpg",
@@ -36,6 +57,7 @@
     },
     {
         "title": "Branding",
+        "type": "Design",
         "description": "Personal projects of branding, creating a Cookie brand, and a mascot for a mobile app for Tea",
         "software": ["Adobe Illustrator"],
         "cover": "images/Branding/melancookies1.jpg",
@@ -43,6 +65,7 @@
     },
     {
         "title": "Dr Martens Rebranding",
+        "type": "Design",
         "description": "Personal projects of rebranding Dr Martens logo to a more modern look.",
         "software": ["Adobe Illustrator"],
         "cover": "images/Rebranding/martens1.jpg",
@@ -50,6 +73,7 @@
     },
     {
         "title": "Hodads Redesign",
+        "type": "Design",
         "description": "Personal project of redesigning Hodad's webpage, improving the design but keeping the same style.",
         "software": ["Adobe XD"],
         "cover": "images/Hodads/Hodads.jpg",
@@ -57,6 +81,7 @@
     },
     {
         "title": "4 Players 1 Snake",
+        "type": "Software",
         "description": "Videogame in Unity, where the concept is 4 players playing Snake, but there's only 1 snake being controlled by everyone.",
         "software": ["Unity"],
         "cover": "images/4p1s/4p1s.jpg",
@@ -64,6 +89,7 @@
     },
     {
         "title": "Banner CMS",
+        "type": "Software",
         "description": "Front end development for Banner CMS, for large-format displays.",
         "software": ["AngularJS","Javascript","Foundation"],
         "cover": "images/CMS/cms1.jpg",
@@ -71,6 +97,7 @@
     },
     {
         "title": "Concert Posters",
+        "type": "Design",
         "description": "I love concerts, so sometimes I like designing concert posters.",
         "software": ["Illustrator","Photoshop"],
         "cover": "images/Concerts/concert1.jpg",
@@ -78,6 +105,7 @@
     },
     {
         "title": "Terramar Design",
+        "type": "Design",
         "description": "Freelance project designing an ecommerce website to sell beauty products.",
         "software": ["AdobeXD"],
         "cover": "images/Terramar/terramar1.jpg",
